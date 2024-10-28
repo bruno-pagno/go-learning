@@ -28,4 +28,11 @@ func main() {
 	fmt.Println(myMap)
 	delete(myMap, "a")
 	fmt.Println(myMap)
+
+	// make
+	fmt.Println("Make")
+	makeSlice := make([]int, 5, 10) // Creates a slice of integers with length 5 and capacity 10
+	fmt.Println(makeSlice)
+	makeMap := make(map[string]int) // Creates an empty map with string keys and integer values
+	fmt.Println(makeMap)
 }
